@@ -1,0 +1,24 @@
+.wordWrapper {
+  display: flex;
+  margin: 0 auto;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.wordWrapper:hover {
+  background-color: hsl(0, 0%, 86%);
+}
+
+.wordWrapper + .wordWrapper {
+  border-top: 1px solid hsl(0, 0%, 86%);
+}
+
+.link {
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.link:hover, .link:focus {
+  text-decoration: underline;
+}

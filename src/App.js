@@ -1,26 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import {Provider} from 'react-redux';
+
+import {store} from './store';
+import {WordForm} from './components/WordForm';
+import {WordsList} from './components/WordsList';
+import {Recorder} from './components/Recorder';
+
 import './App.css';
 
-class App extends Component {
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Provider store={store}>
+        <div className="App columns is-mobile is-centered">
+          <div className="column is-half-tablet is-one-third-desktop">
+            <Recorder />
+            <WordsList />
+            <WordForm />
+          </div>
+        </div>
+      </Provider>
     );
   }
 }
