@@ -1,13 +1,13 @@
 {
   "main.css": "/pronunciation-app/static/css/main.1277a9fa.chunk.css",
-  "main.js": "/pronunciation-app/static/js/main.fe598e43.chunk.js",
-  "main.js.map": "/pronunciation-app/static/js/main.fe598e43.chunk.js.map",
+  "main.js": "/pronunciation-app/static/js/main.3073dac5.chunk.js",
+  "main.js.map": "/pronunciation-app/static/js/main.3073dac5.chunk.js.map",
   "static/js/1.c4f47af4.chunk.js": "/pronunciation-app/static/js/1.c4f47af4.chunk.js",
   "static/js/1.c4f47af4.chunk.js.map": "/pronunciation-app/static/js/1.c4f47af4.chunk.js.map",
   "runtime~main.js": "/pronunciation-app/static/js/runtime~main.4e77cea4.js",
   "runtime~main.js.map": "/pronunciation-app/static/js/runtime~main.4e77cea4.js.map",
   "static/css/main.1277a9fa.chunk.css.map": "/pronunciation-app/static/css/main.1277a9fa.chunk.css.map",
   "index.html": "/pronunciation-app/index.html",
-  "precache-manifest.e9aea15d896ba95ce63a64e5129c72a9.js": "/pronunciation-app/precache-manifest.e9aea15d896ba95ce63a64e5129c72a9.js",
+  "precache-manifest.60161d975581e5986b3bdad0dbc7e3d5.js": "/pronunciation-app/precache-manifest.60161d975581e5986b3bdad0dbc7e3d5.js",
   "service-worker.js": "/pronunciation-app/service-worker.js"
 }
