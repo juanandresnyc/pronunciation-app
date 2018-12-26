@@ -1,0 +1,2 @@
+.formWrapper{margin-top:12px;display:flex;justify-content:flex-end}.wordWrapper{display:flex;margin:0 auto;padding:12px;justify-content:space-between}.wordWrapper:hover{background-color:#dbdbdb}.wordWrapper+.wordWrapper{border-top:1px solid #dbdbdb}.link{background-color:initial;border:1px solid transparent;cursor:pointer}.link:focus,.link:hover{text-decoration:underline}.messageWrapper{padding:20px}.App{text-align:center}html{background-color:#f5f5f5}
+/*# sourceMappingURL=main.1277a9fa.chunk.css.map */
